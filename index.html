@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio Demos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    /* Adjust container width and padding for smaller screens */
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    /* Adjust column width and margin for smaller screens */
+    .col {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Results</h1>
+        <h3>Voice cloning In Tamil</h3>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<h2>Reference Voice 1</h2>
+					<audio controls>
+						<source src="./1.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h2>Cloned Voice 1</h2>
+					<audio controls>
+						<source src="./1.wav" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</div>
+        <div class="row">
+			<div class="col">
+				<div class="card">
+					<h2>Reference Voice 2</h2>
+					<audio controls>
+						<source src="./2.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h2>Cloned Voice 2</h2>
+					<audio controls>
+						<source src="./2.wav" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<h2>Reference Voice 3</h2>
+					<audio controls>
+						<source src="./3.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h2>Cloned Voice 3</h2>
+					<audio controls>
+						<source src="./3.wav" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<h2>Reference Voice 4</h2>
+					<audio controls>
+						<source src="./4.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h2>Cloned Voice 4</h2>
+					<audio controls>
+						<source src="./4.wav" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<h2>Reference Voice 5</h2>
+					<audio controls>
+						<source src="./5.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h2>Cloned Voice 5</h2>
+					<audio controls>
+						<source src="./5.wav" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<h2>Reference Voice 6</h2>
+					<audio controls>
+						<source src="./6.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<h2>Cloned Voice 6</h2>
+					<audio controls>
+						<source src="./6.wav" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// This script reloads the page when the "Generate New Samples" button is clicked
+		// You can modify this script to add more functionality as needed
+
+	</script>
+</body>
+</html>
